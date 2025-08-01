@@ -1,0 +1,71 @@
+# CV Web App – Django Project
+
+This is a personal CV web application built using **Django**. The app allows visitors to:
+- View and download my CV
+- Send me messages via a contact form
+- Leave comments
+- Log their IP address for security/testing purposes
+
+---
+
+## 🌐 Technologies Used
+
+- **Backend:** Django (Python), MySQL
+- **Frontend:** HTML, CSS, TailwindCSS, Alpine.js, JavaScript
+- **Security:** IP logging middleware, `.env` file for secrets
+
+Contact Me: PGPKey
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=2Rpp
+-----END PGP PUBLIC KEY BLOCK-----
+
+

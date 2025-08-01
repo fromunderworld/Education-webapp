@@ -1,0 +1,29 @@
+{% load tailwind_tags %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% tailwind_css %}
+        <link herf="{% static 'cv/stayles.css' %}" rel="stylesheet">
+        <link rel="ico" type="image/x-ico" href="{% static 'cv/icon/main.ico' %}">
+        <title class="font-bold " >CV</title>
+    </head>
+        
+    <body>
+        <div class=" bg-gray-700">
+        <h1 class="text-4xl font-bold text-blue-400 p-4 ">Hello Tailwind!</h1>
+        </div>
+    <div class="flex justify-between">
+            <div class="bg-amber-500 w-14 h-14 rounded-full flex items-center justify-center flex-none">01</div>
+            <div class="bg-amber-500 w-14 h-14 rounded-full flex items-center justify-center flex-none">02</div>
+    </div>
+        <div class="grid h-60 w-100 grid-cols-3 content-start gap-4 ">
+            <div class="bg-purple-400 rounded-3xl flex items-center justify-center">01</div>
+            <div class="bg-purple-400 rounded-3xl flex items-center justify-center">02</div>
+            <div class="bg-purple-400 rounded-3xl flex items-center justify-center">03</div>
+            <div class="bg-purple-400 rounded-3xl flex items-center justify-center">04</div>
+            <div class="bg-purple-400 rounded-3xl flex items-center justify-center">05</div>
+        </div>
+        <img src="{% static 'cv/images/logo.jpeg' %}" alt="Logo">
+    </body>
+</html>     

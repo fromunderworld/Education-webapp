@@ -1,0 +1,2 @@
+django: python3 manage.py runserver
+tailwind: python3 manage.py tailwind start
